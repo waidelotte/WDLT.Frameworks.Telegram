@@ -144,6 +144,11 @@ namespace WDLT.Frameworks.Telegram
             }
         }
 
+        public void AddLine()
+        {
+            _massage.AppendLine();
+        }
+
         public void AddLine(string value)
         {
             if (string.IsNullOrWhiteSpace(value))
